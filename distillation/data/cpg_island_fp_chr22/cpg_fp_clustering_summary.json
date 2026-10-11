@@ -1,0 +1,32 @@
+{
+  "fp_threshold": 0.2,
+  "total_intronic_bp": 16188616,
+  "cpg_intronic_bp": 164193,
+  "expected_fraction_pct": 1.0142497666261279,
+  "models": {
+    "pretrained": {
+      "acceptor": {
+        "n_fp": 165,
+        "n_fp_in_cpg": 8,
+        "observed_frac": 0.048484848484848485
+      },
+      "donor": {
+        "n_fp": 177,
+        "n_fp_in_cpg": 25,
+        "observed_frac": 0.14124293785310735
+      }
+    },
+    "finetuned_sl650_u16": {
+      "acceptor": {
+        "n_fp": 144,
+        "n_fp_in_cpg": 7,
+        "observed_frac": 0.04861111111111111
+      },
+      "donor": {
+        "n_fp": 189,
+        "n_fp_in_cpg": 22,
+        "observed_frac": 0.1164021164021164
+      }
+    }
+  }
+}

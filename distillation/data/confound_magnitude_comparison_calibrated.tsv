@@ -1,0 +1,17 @@
+model	category	confound	n	raw_coefficient	standardized_coefficient	p_value
+OUR_MODEL	real_data_trained	cpg_ratio	34741	0.03655588683784136	0.014780290402293172	0.0
+OUR_MODEL	real_data_trained	stop_codon_count	34741	-0.021082924734256908	-0.03190184539626989	0.0
+pretrained_ensemble	zero_shot	cpg_ratio	69482	0.0758886703415351	0.030683336745935264	0.0
+pretrained_ensemble	zero_shot	stop_codon_count	69482	-0.04218880920119139	-0.06383843254926724	0.0
+sl650_u16_ensemble	fine_tuned_reference	cpg_ratio	69482	0.03488448541285391	0.014104508727245835	0.0
+sl650_u16_ensemble	fine_tuned_reference	stop_codon_count	69482	-0.024249717760449124	-0.036693710984037065	0.0
+AlphaGenome_ss	zero_shot	cpg_ratio	66904	0.043277925488087676	0.017288102950742346	0.0
+AlphaGenome_ss	zero_shot	stop_codon_count	66904	-0.02153544534885124	-0.03196847112111301	0.0
+AlphaGenome_usage	zero_shot	cpg_ratio	66904	0.044757620102840234	0.017879192115645703	0.0
+AlphaGenome_usage	zero_shot	stop_codon_count	66904	-0.021472664425274623	-0.031875275456486496	0.0
+AlphaGenomeJAX_jxn	zero_shot	cpg_ratio	66904	0.01860236598268844	0.007431031284635625	0.0
+AlphaGenomeJAX_jxn	zero_shot	stop_codon_count	66904	-0.007712506890692694	-0.01144889505708091	0.0
+AlphaGenomeJAX_ss	zero_shot	cpg_ratio	66904	0.03531432862353168	0.014106908822328124	0.0
+AlphaGenomeJAX_ss	zero_shot	stop_codon_count	66904	-0.018954904311198312	-0.02813776549591196	0.0
+AlphaGenomeJAX_usage	zero_shot	cpg_ratio	66904	0.03768520472226333	0.015053995578822699	0.0
+AlphaGenomeJAX_usage	zero_shot	stop_codon_count	66904	-0.017895324026866333	-0.02656486272230052	0.0

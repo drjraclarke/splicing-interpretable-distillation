@@ -1,0 +1,18 @@
+{
+  "variable_region_start": 234,
+  "variable_region_end": 297,
+  "cpg_confound": {
+    "n": 34741,
+    "coefficient": 0.03907431873639264,
+    "se": 0.002051399379002211,
+    "t_stat": 19.047640911053687,
+    "p_value": 0.0
+  },
+  "stop_codon_confound": {
+    "n": 34741,
+    "coefficient": -0.022342711048928543,
+    "se": 0.0005545153216882498,
+    "t_stat": -40.292324080252705,
+    "p_value": 0.0
+  }
+}

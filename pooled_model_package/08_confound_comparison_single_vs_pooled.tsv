@@ -1,0 +1,5 @@
+feature	exon6_only_model_std_coef	pooled_16design_model_std_coef_all	pooled_16design_model_std_coef_well_generalizing_only
+cpg_ratio	0.0148	-0.0011	-0.0011
+cpg_count	0.0381	0.0020	0.0014
+gpc_count	0.0238	0.0044	0.0043
+stop_codon_count	-0.0319	0.0099	0.0078

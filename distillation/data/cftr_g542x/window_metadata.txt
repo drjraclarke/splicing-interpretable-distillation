@@ -1,0 +1,8 @@
+chrom=7
+window_start_1based=117582778
+window_end_1based=117592778
+window_length=10001
+variant_pos_1based=117587778
+variant_0based_index_in_window=5000
+ref_allele=G
+alt_allele=T

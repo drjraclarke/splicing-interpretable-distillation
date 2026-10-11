@@ -384,7 +384,7 @@ def do_hyperparameter_search(
     run_config = tune.RunConfig(
         name=experiment_args["experiment_name"],
         storage_path=experiment_args["result_dir"],
-        checkpoint_config=ray.train.CheckpointConfig(
+        checkpoint_config=tune.CheckpointConfig(
             num_to_keep=experiment_args["checkpoints_to_keep"],
             checkpoint_score_attribute=metric_to_optimize,
             checkpoint_score_order=metric_mode,
